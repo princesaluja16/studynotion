@@ -25,7 +25,7 @@ exports.resetPasswordToken = async (req, res) => {
 		);
 		console.log("DETAILS", updatedDetails);
 
-		const url = `https://studynotion-backend-56vz.onrender.com/update-password/${token}`;
+		const url = `https://studynotion-backend-56vz.onrender.com/reset-password-token/${token}`;
 
 		await mailSender(
 			email,
