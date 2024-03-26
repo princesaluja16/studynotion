@@ -47,7 +47,7 @@ function Home() {
         {/* CTA Buttons */}
         <div className="mt-8 flex flex-row gap-7">
           <CTAButton active={true} linkto={"/signup"}>
-            Learn More
+            Learn More.
           </CTAButton>
           <CTAButton active={false} linkto={"/login"}>
             Book a Demo
