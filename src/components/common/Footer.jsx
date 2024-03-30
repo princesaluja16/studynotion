@@ -164,9 +164,12 @@ const Footer = () => {
                       : "border-r border-richblack-700 cursor-pointer hover:text-richblack-50 transition-all duration-200"
                   } px-3 `}
                 >
-                  <Link to={ele.split(" ").join("-").toLocaleLowerCase()}>
+{/*                   <Link to={ele.split(" ").join("-").toLocaleLowerCase()}>
                     {ele}
-                  </Link>
+                  </Link> */}
+                  <div>
+                    {ele}
+                  </div>
                 </div>
               );
             })}
