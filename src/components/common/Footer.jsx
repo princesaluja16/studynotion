@@ -41,7 +41,8 @@ const Footer = () => {
                       key={i}
                       className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200"
                     >
-                      <Link to={ele.toLowerCase()}>{ele}</Link>
+{/*                       <Link to={ele.toLowerCase()}>{ele}</Link> */}
+                      <div>{ele}</div>
                     </div>
                   );
                 })}
@@ -67,9 +68,10 @@ const Footer = () => {
                       key={index}
                       className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200"
                     >
-                      <Link to={ele.split(" ").join("-").toLowerCase()}>
+{/*                       <Link to={ele.split(" ").join("-").toLowerCase()}>
                         {ele}
-                      </Link>
+                      </Link> */}
+                      <div>{ele}</div>
                     </div>
                   );
                 })}
@@ -79,7 +81,8 @@ const Footer = () => {
                 Support
               </h1>
               <div className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200 mt-2">
-                <Link to={"/help-center"}>Help Center</Link>
+{/*                 <Link to={"/help-center"}>Help Center</Link> */}
+                <div>Help Center</div>
               </div>
             </div>
 
@@ -95,9 +98,10 @@ const Footer = () => {
                       key={index}
                       className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200"
                     >
-                      <Link to={ele.split(" ").join("-").toLowerCase()}>
+{/*                       <Link to={ele.split(" ").join("-").toLowerCase()}>
                         {ele}
-                      </Link>
+                      </Link> */}
+                      <div>{ele}</div>
                     </div>
                   );
                 })}
@@ -113,9 +117,10 @@ const Footer = () => {
                       key={index}
                       className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200"
                     >
-                      <Link to={ele.split(" ").join("-").toLowerCase()}>
+{/*                       <Link to={ele.split(" ").join("-").toLowerCase()}>
                         {ele}
-                      </Link>
+                      </Link> */}
+                      <div>{ele}</div>
                     </div>
                   );
                 })}
